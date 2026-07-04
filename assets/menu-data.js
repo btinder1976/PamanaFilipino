@@ -1,0 +1,1 @@
+window.PAMANA_MENU = [];
