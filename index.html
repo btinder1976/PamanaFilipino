@@ -3,103 +3,125 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Pamana Filipino-Kapampangan Restaurant in North Highlands, CA. Authentic Kapampangan sisig, silog meals, lumpia, halo-halo, and Filipino comfort food." />
+  <meta name="description" content="Pamana Filipino-Kapampangan Restaurant in North Highlands, CA. Authentic Kapampangan food, silog meals, lumpia, halo-halo, catering, and Filipino comfort food." />
   <title>Pamana Filipino-Kapampangan Restaurant</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Allura&family=Cinzel:wght@600;700;800&family=Playfair+Display:wght@700;800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./styles.css" />
 </head>
 <body>
-  <header class="site-header" id="top">
-    <a class="brand" href="#top" aria-label="Pamana home">
-      <span class="sun-mark">✹</span>
-      <span><strong>Pamana</strong><small>Filipino · Kapampangan</small></span>
-    </a>
-    <button class="nav-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
-    <nav class="nav-links">
-      <a href="#menu">Menu</a>
-      <a href="#about">About</a>
-      <a href="#gallery">Gallery</a>
-      <a href="#visit">Visit</a>
-      <a class="nav-cta" href="tel:+19163334851">Call to Order</a>
-    </nav>
-  </header>
+  <div class="page-shell">
+    <header class="site-header" id="top">
+      <a class="brand" href="#top" aria-label="Pamana home">
+        <span class="sun-mark">☀</span>
+        <span><strong>Pamana</strong><small>Filipino-Kapampangan Restaurant</small></span>
+      </a>
+      <button class="nav-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+      <nav class="nav-links">
+        <a href="#menu">Menu</a>
+        <a href="#about">About</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#catering">Catering</a>
+        <a href="#visit">Visit</a>
+        <a class="nav-cta" href="tel:+19163334851">Call to Order</a>
+      </nav>
+    </header>
 
-  <main>
-    <section class="hero">
-      <div class="pattern"></div>
-      <div class="hero-content">
-        <p class="eyebrow">North Highlands · Filipino Comfort Food</p>
-        <h1>Authentic Filipino-Kapampangan food made for family-style cravings.</h1>
-        <p class="hero-copy">Sisig, silog meals, lumpia, halo-halo, and homestyle favorites served with a festive Filipino welcome.</p>
-        <div class="hero-actions">
-          <a class="btn primary" href="#menu">View Menu</a>
-          <a class="btn secondary" href="tel:+19163334851">Call (916) 333-4851</a>
+    <main>
+      <section class="hero flyer-panel">
+        <div class="bamboo-corner">❦</div>
+        <div class="hero-emblem" aria-hidden="true">
+          <div class="flag-sun">☀</div>
+          <div class="stars">★ ★ ★</div>
+          <div class="emblem-food">🍛</div>
+          <div class="emblem-ribbon">PAMANA</div>
+          <div class="emblem-sub">Filipino-Kapampangan Restaurant</div>
         </div>
-      </div>
-      <div class="hero-card">
-        <img src="./assets/images/gallery/google-photo-placeholder-hero.jpg" alt="Pamana Filipino food placeholder from Google listing" onerror="this.src='https://images.unsplash.com/photo-1626776876729-bab4369a5a5a?auto=format&fit=crop&w=900&q=80'" />
-        <div class="hero-card-caption">Featured dish photo placeholder</div>
-      </div>
-    </section>
-
-    <section class="feature-strip" aria-label="Restaurant highlights">
-      <article><strong>Kapampangan Sisig</strong><span>crispy, savory, citrusy</span></article>
-      <article><strong>Silog Favorites</strong><span>garlic rice + eggs</span></article>
-      <article><strong>Family Combos</strong><span>lumpia + rice bowls</span></article>
-    </section>
-
-    <section class="section about" id="about">
-      <div>
-        <p class="eyebrow">Heritage on a plate</p>
-        <h2>Pamana means legacy.</h2>
-      </div>
-      <p>Pamana brings Filipino and Kapampangan comfort food to North Highlands with bold flavors, generous plates, and the kind of dishes that feel like a family celebration. From sizzling-style sisig bowls to crispy lumpiang shanghai, every section of the site is built so the owner can easily update prices, photos, and menu availability.</p>
-    </section>
-
-    <section class="section menu-section" id="menu">
-      <div class="section-heading">
-        <p class="eyebrow">Editable Menu</p>
-        <h2>Menu favorites</h2>
-        <p>All items below come from <code>assets/menu-data.js</code>, so the owner can add, remove, edit prices, and add food photos without touching the page layout.</p>
-      </div>
-      <div class="menu-filters" id="menuFilters" aria-label="Menu category filters"></div>
-      <div class="menu-grid" id="menuGrid"></div>
-    </section>
-
-    <section class="section gallery" id="gallery">
-      <div class="section-heading">
-        <p class="eyebrow">Food Gallery</p>
-        <h2>Photos from the restaurant</h2>
-        <p>Temporary slots for Google listing photos. Replace these files with owner-approved images using the same filenames.</p>
-      </div>
-      <div class="gallery-grid">
-        <img src="./assets/images/gallery/google-photo-1.jpg" alt="Pamana food photo placeholder 1" onerror="this.src='https://images.unsplash.com/photo-1630383249896-424e482df921?auto=format&fit=crop&w=700&q=80'" />
-        <img src="./assets/images/gallery/google-photo-2.jpg" alt="Pamana food photo placeholder 2" onerror="this.src='https://images.unsplash.com/photo-1603133872878-684f208fb84b?auto=format&fit=crop&w=700&q=80'" />
-        <img src="./assets/images/gallery/google-photo-3.jpg" alt="Pamana food photo placeholder 3" onerror="this.src='https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&w=700&q=80'" />
-        <img src="./assets/images/gallery/google-photo-4.jpg" alt="Pamana food photo placeholder 4" onerror="this.src='https://images.unsplash.com/photo-1625944525533-473f1a3d54e7?auto=format&fit=crop&w=700&q=80'" />
-      </div>
-    </section>
-
-    <section class="section visit" id="visit">
-      <div class="visit-card">
-        <p class="eyebrow">Visit Pamana</p>
-        <h2>4845 Watt Ave Ste A<br>North Highlands, CA 95660</h2>
-        <p>Call ahead for current availability, specials, and large orders.</p>
-        <div class="visit-actions">
-          <a class="btn primary" href="tel:+19163334851">Call (916) 333-4851</a>
-          <a class="btn secondary" target="_blank" rel="noreferrer" href="https://www.google.com/maps/search/?api=1&query=Pamana%20Filipino%20Kapampangan%20Restaurant%204845%20Watt%20Ave%20Ste%20A%20North%20Highlands%20CA">Open in Google Maps</a>
+        <div class="hero-content">
+          <p class="script-name">Charlie Lozano</p>
+          <p class="eyebrow">Authentic flavors · Proud heritage · Made for family</p>
+          <h1>Filipino-Kapampangan food with a fiesta heart.</h1>
+          <p class="hero-copy">Home-style favorites, bold Kapampangan flavor, party trays, catering, silog meals, lumpia, sisig bowls, and halo-halo in North Highlands.</p>
+          <div class="hero-actions">
+            <a class="btn primary" href="#menu">View Menu</a>
+            <a class="btn secondary" href="tel:+19163334851">Call (916) 333-4851</a>
+          </div>
         </div>
-      </div>
-      <iframe title="Map to Pamana Filipino-Kapampangan Restaurant" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=Pamana%20Filipino%20Kapampangan%20Restaurant%204845%20Watt%20Ave%20Ste%20A%20North%20Highlands%20CA&output=embed"></iframe>
-    </section>
-  </main>
+      </section>
 
-  <footer>
-    <strong>Pamana Filipino-Kapampangan Restaurant</strong>
-    <span>Built for Cloudflare Pages · Menu powered by editable data</span>
-  </footer>
+      <section class="contact-band" aria-label="Restaurant quick information">
+        <div><span>☎</span><strong>(916) 333-4851</strong></div>
+        <div><span>📍</span><strong>4845 Watt Ave, North Highlands, CA</strong></div>
+        <div><span>♡</span><strong>Serving good food. Building memories.</strong></div>
+      </section>
+
+      <section class="feature-strip" aria-label="Restaurant highlights">
+        <article><span class="mini-icon">✦</span><strong>Kapampangan Sisig</strong><span>crispy, savory, citrusy</span></article>
+        <article><span class="mini-icon">✦</span><strong>Silog Favorites</strong><span>garlic rice + eggs</span></article>
+        <article><span class="mini-icon">✦</span><strong>Family Combos</strong><span>lumpia + rice bowls</span></article>
+      </section>
+
+      <section class="section about flyer-panel" id="about">
+        <div>
+          <p class="eyebrow">Heritage on a plate</p>
+          <h2>Pamana means legacy.</h2>
+        </div>
+        <p>Pamana brings Filipino and Kapampangan comfort food to North Highlands with bold flavors, generous plates, and the kind of dishes that feel like a family celebration. The design now follows the restaurant flyer style: parchment cream, deep green, gold accents, Filipino sun details, bamboo leaves, and elegant catering-card polish.</p>
+      </section>
+
+      <section class="section menu-section" id="menu">
+        <div class="section-heading ornamental-heading">
+          <p class="eyebrow">Editable Menu</p>
+          <h2>Menu favorites</h2>
+          <p>Menu cards are loaded from <code>assets/menu-data.js</code> so the owner can add, remove, edit prices, and attach food photos without changing the layout.</p>
+        </div>
+        <div class="menu-filters" id="menuFilters" aria-label="Menu category filters"></div>
+        <div class="menu-grid" id="menuGrid"></div>
+      </section>
+
+      <section class="section catering flyer-panel" id="catering">
+        <div>
+          <p class="eyebrow">We accept</p>
+          <h2>Catering</h2>
+          <p>Bring Pamana to birthdays, church events, family gatherings, work lunches, and community celebrations.</p>
+        </div>
+        <a class="btn primary" href="tel:+19163334851">Ask About Catering</a>
+      </section>
+
+      <section class="section gallery" id="gallery">
+        <div class="section-heading ornamental-heading">
+          <p class="eyebrow">Food Gallery</p>
+          <h2>Photos from the restaurant</h2>
+          <p>Use the assets folder for real restaurant photos. The frame style is built to match the flyer design.</p>
+        </div>
+        <div class="gallery-grid">
+          <img src="./assets/images/gallery/google-photo-1.jpg" alt="Pamana food photo 1" onerror="this.src='https://images.unsplash.com/photo-1630383249896-424e482df921?auto=format&fit=crop&w=700&q=80'" />
+          <img src="./assets/images/gallery/google-photo-2.jpg" alt="Pamana food photo 2" onerror="this.src='https://images.unsplash.com/photo-1603133872878-684f208fb84b?auto=format&fit=crop&w=700&q=80'" />
+          <img src="./assets/images/gallery/google-photo-3.jpg" alt="Pamana food photo 3" onerror="this.src='https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&w=700&q=80'" />
+          <img src="./assets/images/gallery/google-photo-4.jpg" alt="Pamana food photo 4" onerror="this.src='https://images.unsplash.com/photo-1625944525533-473f1a3d54e7?auto=format&fit=crop&w=700&q=80'" />
+        </div>
+      </section>
+
+      <section class="section visit" id="visit">
+        <div class="visit-card flyer-panel dark-panel">
+          <p class="eyebrow">Visit Pamana</p>
+          <h2>4845 Watt Ave Ste A<br>North Highlands, CA 95660</h2>
+          <p>Call ahead for current availability, specials, and large orders.</p>
+          <div class="visit-actions">
+            <a class="btn primary" href="tel:+19163334851">Call (916) 333-4851</a>
+            <a class="btn secondary" target="_blank" rel="noreferrer" href="https://www.google.com/maps/search/?api=1&query=Pamana%20Filipino%20Kapampangan%20Restaurant%204845%20Watt%20Ave%20Ste%20A%20North%20Highlands%20CA">Open in Google Maps</a>
+          </div>
+        </div>
+        <iframe title="Map to Pamana Filipino-Kapampangan Restaurant" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=Pamana%20Filipino%20Kapampangan%20Restaurant%204845%20Watt%20Ave%20Ste%20A%20North%20Highlands%20CA&output=embed"></iframe>
+      </section>
+    </main>
+
+    <footer>
+      <strong>Pamana Filipino-Kapampangan Restaurant</strong>
+      <span>Facebook: pamana resto · Instagram: pamana_fil_kap_restaurant</span>
+    </footer>
+  </div>
 
   <script src="./assets/menu-data.js"></script>
   <script src="./script.js"></script>
